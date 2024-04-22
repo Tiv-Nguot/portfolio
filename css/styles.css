@@ -6,8 +6,20 @@ body{
 .position{
   color: #8a2f7f;
 }
+.contact{
+  text-decoration: none;
+}
 .contact-icon{
   width: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+
+}
+.contact-icon:hover{
+  border:1px solid #8a2f7f;
+}
+.phone{
+  width: 60px;
 }
 .first-profile{
   display: none;
@@ -16,17 +28,31 @@ body{
   width: 50%;
   border: 3px solid teal;
 }
-a{
+.nav-item a{
   color: #48cae4;
 }
-a:hover{
-  color: #e63946;
+.nav-item a:hover{
+  color: #48cae4a1;
+}
+.programming{
+  width: 50px;
+}
+.card-programming{
+  padding: 20px;
+  width: 120px;
+  height: 110px;
+  background: white;
+  border-radius: 5px;
 }
 
 /* responsive  */
 @media only screen and (max-width: 600px) {
+  h1{
+    font-size: 2em;
+  }
   .first-profile{
-    display: block;
+    display: flex;
+    justify-content: center;
   }
   .second-profile{
     display: none;
