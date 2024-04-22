@@ -19,8 +19,11 @@ body{
 .contact-icon:hover{
   border:1px solid #8a2f7f;
 }
-.phone{
-  /* width: 60px; */
+.programming-container{
+  /* background: red; */
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
 }
 .first-profile{
   display: none;
