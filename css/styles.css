@@ -9,6 +9,7 @@ body{
 .contact{
   text-decoration: none;
 }
+
 .contact-icon{
   width: 50px;
   border-radius: 50px;
@@ -19,7 +20,7 @@ body{
   border:1px solid #8a2f7f;
 }
 .phone{
-  width: 60px;
+  /* width: 60px; */
 }
 .first-profile{
   display: none;
@@ -33,6 +34,8 @@ body{
 }
 .nav-item a:hover{
   color: #48cae4a1;
+  border-bottom:1px solid #8a2f7f;
+
 }
 .programming{
   width: 50px;
@@ -43,6 +46,14 @@ body{
   height: 110px;
   background: white;
   border-radius: 5px;
+}
+.contact-icon-footer{
+  width: 35px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.contact-icon-footer:hover{
+  border:1px solid #8a2f7f;
 }
 
 /* responsive  */
