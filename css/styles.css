@@ -1,0 +1,17 @@
+body{
+  background: #000;
+  color: white;
+}
+
+.position{
+  color: #8a2f7f;
+}
+.contact-icon{
+  width: 50px;
+}
+#profile{
+  width: 50%;
+  border: 3px solid teal;
+}
+
+   
