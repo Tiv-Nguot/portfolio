@@ -4,7 +4,7 @@ body{
 }
 
 .position{
-  color: #8a2f7f;
+  color: #b62ea6;
 }
 .contact{
   text-decoration: none;
@@ -75,6 +75,11 @@ body{
   padding: 20px;
   border-radius: 5px;
 }
+
+.card-experience h4 a{
+color: red;
+}
+
 .first-profile{
   display: none;
 }
