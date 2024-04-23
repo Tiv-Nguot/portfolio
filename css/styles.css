@@ -17,7 +17,9 @@ body{
 
 }
 .contact-icon:hover{
-  border:1px solid #8a2f7f;
+  border:2px solid #8a2f7f;
+  /* box-shadow:  7px 7px 16px #21c975,
+  -18px -18px 36px #353b37; */
 }
 .programming-container{
   margin-top: 30px;
@@ -27,7 +29,7 @@ body{
 }
 .card-container {
   padding: 20px;
-  width: 110px;
+  width: 120px;
   height: 110px;
   background: white;
   justify-content: center; /* Center content horizontally */
@@ -44,6 +46,22 @@ body{
 .programming-icon{
   width: 50px;
 }
+.html{
+  width: 46px;
+}
+.sass{
+  width: 60px;
+}
+.bootstap{
+  width: 60px;
+}
+.typescript{
+  width: 60px;
+}
+.node{
+  width: 80px;
+}
+
 .first-profile{
   display: none;
 }
@@ -85,7 +103,7 @@ body{
   }
   .card-container {
     padding: 20px;
-    width: 90px;
+    width: 150px;
     height: 110px;
   }
   .title-card{
