@@ -78,14 +78,14 @@ body{
   border:1px solid #8a2f7f;
 }
 
-/* responsive  */
-@media only screen and (max-width: 600px) {
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
   h1{
     font-size: 2em;
   }
   .card-container {
     padding: 20px;
-    width: 100px;
+    width: 90px;
     height: 110px;
   }
   .title-card{
@@ -99,5 +99,22 @@ body{
     display: none;
   }
 }
+
+/* Styles for screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+  /* Additional styles for medium-sized screens */
+}
+
+/* Styles for screens larger than 900px */
+@media (min-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+  /* Additional styles for larger screens */
+}
+
 
    
