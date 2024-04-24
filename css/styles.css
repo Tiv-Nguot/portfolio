@@ -278,6 +278,12 @@ body {
     width: 170px;
     height: 110px;
   }
+  #education {
+    padding: 20px;
+  }
+  #experiences {
+    padding: 20px;
+  }
 
 }
 
@@ -291,6 +297,12 @@ body {
   .programming-icon {
     width: 50px;
   }
+  #education {
+    padding: 20px;
+  }
+  #experiences {
+    padding: 20px;
+  }
 
 }
 
@@ -299,6 +311,12 @@ body {
     padding: 20px;
     width: 150px;
     height: 110px;
+  }
+  #education {
+    padding: 20px;
+  }
+  #experiences {
+    padding: 20px;
   }
 }
 
