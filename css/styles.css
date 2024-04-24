@@ -131,6 +131,9 @@ color: red;
     display: flex;
     justify-content: center;
   }
+  #profile{
+    width: 70%;
+  }
   .second-profile{
     display: none;
   }
