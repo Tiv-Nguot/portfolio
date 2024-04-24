@@ -36,19 +36,23 @@ body {
 
 .contact {
   text-decoration: none;
+  transition: box-shadow 0.3s ease;
+
 }
 
 .contact-icon {
   width: 50px;
   border-radius: 50px;
   text-decoration: none;
+  transition: box-shadow 0.3s ease;
+
 
 }
 
 .contact-icon:hover {
-  border: 2px solid #8a2f7f;
-  /* box-shadow:  7px 7px 16px #21c975,
-  -18px -18px 36px #353b37; */
+  border: 1px solid #8a2f7f;
+  box-shadow: 0px 0px 30px #21c975,
+    -1px -1px 3px #353b37;
 }
 
 .programming-container {
@@ -72,8 +76,8 @@ body {
 }
 
 .card-container:hover {
-  box-shadow: 7px 7px 16px #21c975,
-    -18px -18px 36px #353b37;
+  box-shadow: 0px 0px 30px #21c975,
+    -1px -1px 30px #353b37;
 }
 
 .programming-icon {
@@ -136,14 +140,15 @@ body {
   border-radius: 5px;
 }
 
-.education-container,.experience-container {
+.education-container,
+.experience-container {
   gap: 20px;
 }
 
-.card-education:hover,.card-experience:hover {
+/* .card-education:hover,.card-experience:hover {
   box-shadow: 7px 7px 16px #21c975,
   -18px -18px 36px #353b37;
-}
+} */
 .card-education {
   width: 48%;
   border-radius: 5px;
@@ -164,10 +169,15 @@ body {
   width: 35px;
   border-radius: 50px;
   text-decoration: none;
+  transition: box-shadow 0.3s ease;
+
 }
 
 .contact-icon-footer:hover {
   border: 1px solid #8a2f7f;
+  box-shadow: 0px 0px 30px #21c975,
+    -1px -1px 3px #353b37;
+
 }
 
 
@@ -227,9 +237,17 @@ body {
     display: none;
   }
 
+  #education {
+    padding: 20px;
+  }
+
   .card-education {
     width: 100%;
     border-radius: 5px;
+  }
+
+  #experiences {
+    padding: 20px;
   }
 
   .card-experience {
@@ -244,6 +262,12 @@ body {
     padding: 20px;
     width: 180px;
     height: 110px;
+  }
+  #education {
+    padding: 20px;
+  }
+  #experiences {
+    padding: 20px;
   }
 
 }
