@@ -3,9 +3,34 @@ body{
   color: white;
 }
 
-.position{
+.loadText{
   color: #b62ea6;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typeAndDelete 7s cubic-bezier(0.5, 0, 0.5, 1) infinite, blinkCursor 0.5s alternate;
 }
+@keyframes blinkCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typeAndDelete {
+  0%,
+  10% {
+    width: 0;
+  }
+  45%,
+  55% {
+    width: 15em;
+  } 
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
 .contact{
   text-decoration: none;
 }
