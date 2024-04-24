@@ -115,6 +115,27 @@ color: red;
 }
 
 /* Styles for screens smaller than 600px */
+@media (max-width: 768px) {
+  h1{
+    font-size: 2em;
+  }
+  .card-container {
+    padding: 20px;
+    width: 100px;
+    height: 110px;
+  }
+  .title-card{
+    font-size: 1em;
+  }
+  .first-profile{
+    display: flex;
+    justify-content: center;
+  }
+  .second-profile{
+    display: none;
+  }
+}
+/* Styles for screens smaller than 600px */
 @media (max-width: 600px) {
   h1{
     font-size: 2em;
@@ -153,10 +174,28 @@ color: red;
   }
 
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .card-container {
     padding: 20px;
-    width: 149px;
+    width: 162px;
+    height: 110px;
+  }
+  .programming-icon{
+    width: 50px;
+  }
+
+}
+@media (max-width: 360px) {
+  .card-container {
+    padding: 20px;
+    width: 150px;
+    height: 110px;
+  }
+}
+@media (max-width: 320px) {
+  .card-container {
+    padding: 20px;
+    width: 130px;
     height: 110px;
   }
 
