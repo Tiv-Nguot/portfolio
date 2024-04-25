@@ -25,7 +25,7 @@ body {
 
   45%,
   55% {
-    width: 15em;
+    width: 100%;
   }
 
   90%,
@@ -51,8 +51,8 @@ body {
 
 .contact-icon:hover {
   border: 1px solid #8a2f7f;
-  box-shadow: 0px 0px 30px #21c975,
-    -1px -1px 3px #353b37;
+  box-shadow:  0px 0px 30px #21c975,
+  -1px -1px 3px #353b37;
 }
 
 .programming-container {
@@ -140,8 +140,7 @@ body {
   border-radius: 5px;
 }
 
-.education-container,
-.experience-container {
+.education-container,.experience-container {
   gap: 20px;
 }
 
@@ -175,8 +174,8 @@ body {
 
 .contact-icon-footer:hover {
   border: 1px solid #8a2f7f;
-  box-shadow: 0px 0px 30px #21c975,
-    -1px -1px 3px #353b37;
+  box-shadow:  0px 0px 30px #21c975,
+  -1px -1px 3px #353b37;
 
 }
 
@@ -210,6 +209,9 @@ body {
   .second-profile {
     display: none;
   }
+  .education-container{
+    padding: 20px;
+  }
 }
 
 /* Styles for screens smaller than 600px */
@@ -236,38 +238,22 @@ body {
   .second-profile {
     display: none;
   }
-
-  #education {
+  .education-container,.experience-container{
     padding: 20px;
   }
-
-  .card-education {
+  .card-education, .card-experience {
     width: 100%;
     border-radius: 5px;
   }
 
-  #experiences {
-    padding: 20px;
-  }
-
-  .card-experience {
-    width: 100%;
-    border-radius: 5px;
-  }
 }
 
 /* Styles for screens larger than 900px */
 @media (max-width: 428px) {
   .card-container {
     padding: 20px;
-    width: 180px;
+    width: 185px;
     height: 110px;
-  }
-  #education {
-    padding: 20px;
-  }
-  #experiences {
-    padding: 20px;
   }
 
 }
@@ -277,12 +263,6 @@ body {
     padding: 20px;
     width: 170px;
     height: 110px;
-  }
-  #education {
-    padding: 20px;
-  }
-  #experiences {
-    padding: 20px;
   }
 
 }
@@ -297,12 +277,6 @@ body {
   .programming-icon {
     width: 50px;
   }
-  #education {
-    padding: 20px;
-  }
-  #experiences {
-    padding: 20px;
-  }
 
 }
 
@@ -311,12 +285,6 @@ body {
     padding: 20px;
     width: 150px;
     height: 110px;
-  }
-  #education {
-    padding: 20px;
-  }
-  #experiences {
-    padding: 20px;
   }
 }
 
