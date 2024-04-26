@@ -154,7 +154,18 @@ body {
   transition: box-shadow 0.3s ease;
 
 }
-
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.web_development{
+  padding-top: 20px;
+width: 80px;
+}
+.deploma{
+  padding-top: 6px;
+  width: 110px;
+}
 
 .card-experience {
   width: 48%;
