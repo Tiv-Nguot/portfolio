@@ -259,11 +259,26 @@ width: 80px;
 
 }
 
-/* Styles for screens larger than 900px */
 @media (max-width: 428px) {
   .card-container {
     padding: 20px;
     width: 185px;
+    height: 110px;
+  }
+
+}
+@media (max-width: 414px) {
+  .card-container {
+    padding: 20px;
+    width: 182px;
+    height: 110px;
+  }
+
+}
+@media (max-width: 412px) {
+  .card-container {
+    padding: 20px;
+    width: 180px;
     height: 110px;
   }
 
