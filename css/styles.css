@@ -307,6 +307,7 @@ width: 80px;
     width: 50px;
   }
 
+
 }
 
 @media (max-width: 360px) {
@@ -314,6 +315,21 @@ width: 80px;
     padding: 20px;
     width: 150px;
     height: 110px;
+  }
+  .css{
+    width: 55px;
+  }
+  .sass{
+    width: 65px;
+  }
+  .tailwind{
+    width: 80px;
+  }
+  .node{
+    width: 80px;
+  }
+  .typescript{
+    width: 62px;
   }
 }
 
