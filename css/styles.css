@@ -122,12 +122,10 @@ body {
 }
 
 .nav-item a {
-  color: #48cae4;
+  color: #f4f7f7a4;
 }
-
 .nav-item a:hover {
-  color: #48cae4a1;
-  border-bottom: 1px solid #8a2f7f;
+  color: white;
 
 }
 
